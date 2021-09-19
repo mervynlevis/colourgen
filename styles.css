@@ -1,15 +1,14 @@
 body {
-  font: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
   top: 15%;
-  background: linear-gradient(to right, aqua, purple);
+  background: linear-gradient(to right, #aaaaff, #0000ff);
 }
 
 .maincontent {
-  height: 90vh;
+  height: 87vh;
 }
 
 input {
@@ -28,8 +27,6 @@ input {
   font-weight: normal;
   src: local("SEGA LOGO FONT"), url("./SEGA.woff") format("woff");
 }
-
-
 
 h1 {
   font-family: "SEGA LOGO FONT";
